@@ -1,0 +1,48 @@
+Eczema Diagnosis System: A Knowledge-Based Approach Using Streamlit
+📌 Project Overview
+This project is a knowledge-based system designed to help users diagnose potential eczema conditions based on their symptoms. It provides a simple and interactive interface using Streamlit, allowing users to input symptoms and receive a diagnosis.
+
+🎯 Objective
+Assist users in identifying eczema symptoms early.
+Reduce misdiagnosis by using a rule-based approach.
+Encourage timely medical attention to prevent complications.
+🛠️ Tech Stack
+Frontend: Streamlit
+Backend: Python (Rule-based diagnosis system)
+📌 How It Works
+User Input: The user selects symptoms from a checklist.
+Symptom Matching: The system categorizes symptoms into universal and type-specific eczema symptoms.
+Diagnosis Logic:
+If all universal symptoms are present → Eczema is confirmed
+If type-specific symptoms match a category → Type of eczema is suggested
+If symptoms are unclear → Suggests consulting a dermatologist
+📌 Features
+✅ User-Friendly UI: Built with Streamlit for easy interaction.
+✅ Knowledge-Based Diagnosis: Uses rule-based logic to determine potential eczema types.
+✅ Handles Ambiguity: Provides alternative suggestions for incomplete inputs.
+
+📌 Challenges & Solutions
+Challenge	Solution
+Ambiguous or incomplete input	Provides fallback recommendations for doctor consultation.
+Diverse eczema types	Predefined clear rule sets for each type.
+🚀 Future Enhancements
+Expand to diagnose other skin conditions
+Improve accuracy with AI-based models
+Integrate with medical resources for treatment suggestions
+📌 How to Run the Project
+Clone the repository:
+sh
+Copy
+Edit
+git clone https://github.com/walid11111/walid11111-Eczema-diagnosis-system.git
+cd Eczema-diagnosis-system
+Install dependencies:
+sh
+Copy
+Edit
+pip install -r requirements.txt
+Run the Streamlit app:
+sh
+Copy
+Edit
+streamlit run app.py
